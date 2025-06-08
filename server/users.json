@@ -3,60 +3,70 @@
     "userid": " 4fc418c4-1ade-4e9b-a7df-67457c8fb96a",
     "firstname": "User1",
     "lastname": "Last1",
-    "email": "user1@example.com"
+    "email": "user1@example.com",
+    "password": "password1"
   },
   {
     "userid": "5c793a3a-7d2d-4322-b89b-06c3d6b09d93",
     "firstname": "User2",
     "lastname": "Last2",
-    "email": "user2@example.com"
+    "email": "user2@example.com",
+    "password": "password2"
   },
   {
     "userid": "3a0a4799-d8e4-4a1a-b33a-8ce404acab15",
     "firstname": "User3",
     "lastname": "Last3",
-    "email": "user3@example.com"
+    "email": "user3@example.com",
+    "password": "password3"
   },
   {
     "userid": "b1466aef-3dbc-4934-b6a3-a7e5fb5beb54",
     "firstname": "User4",
     "lastname": "Last4",
-    "email": "user4@example.com"
+    "email": "user4@example.com",
+    "password": "password4"
   },
   {
     "userid": "562e0f49-c8f1-4562-89e8-018bb016057e",
     "firstname": "User5",
     "lastname": "Last5",
-    "email": "user5@example.com"
+    "email": "user5@example.com",
+    "password": "password5"
   },
   {
     "userid": "42358f54-b3f5-4f79-bfe9-4c22f7bbf214",
     "firstname": "User6",
     "lastname": "Last6",
-    "email": "user6@example.com"
+    "email": "user6@example.com",
+    "password": "password6"
   },
   {
     "userid": "90cd7541-1a7b-4ef6-991f-bedaccba52d1",
     "firstname": "User7",
     "lastname": "Last7",
-    "email": "user7@example.com"
+    "email": "user7@example.com",
+    "password": "password7"
   },
   {
     "userid": "4cb8f687-fff3-4544-9cce-09c8fd3d4147",
     "firstname": "User8",
     "lastname": "Last8",
-    "email": "user8@example.com"
+    "email": "user8@example.com",
+    "password": "password8"
   },
   {
     "userid": "dca4c14e-19d9-47fa-8da4-6f612a5f7c89",
     "firstname": "User9",
     "lastname": "Last9",
-    "email": "user9@example.com"
+    "email": "user9@example.com",
+    "password": "password9"
   },
   {
     "userid": "88619348-dbd9-4334-9290-241a7f17dd31",
     "firstname": "John",
     "lastname": "Doe",
-    "email": "demo@example.org  "
+    "email": "demo@example.org",
+    "password": "test"
   }
 ]
