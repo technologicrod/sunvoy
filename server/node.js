@@ -29,7 +29,21 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  const filePath = path.join(__dirname, 'users.json');
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error("Error reading users.json:", err);
+      return res.status(500).send("Error reading user data.");
+    }
+
+    try {
+      const users = JSON.parse(data);
+      res.json(users);
+    } catch (parseErr) {
+      console.error("Error parsing users.json:", parseErr);
+      res.status(500).send("Error parsing user data.");
+    }
+  });
 });
 
 app.use((err, req, res, next) => {
