@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({
   parameterLimit: 50000
 }));
 
-// Session setup
+
 app.use(session({
   secret: 'random-secret-key',
   resave: false,
@@ -37,7 +37,7 @@ app.use(session({
   cookie: {
     secure: false,           
     httpOnly: true,
-    maxAge: 1000 * 60 * 60 * 2 // 2 hours
+    maxAge: 1000 * 60 * 60 * 2 //2hrs
   }
 }));
 
